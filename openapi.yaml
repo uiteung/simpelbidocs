@@ -1,6 +1,11 @@
 openapi: 3.0.0
 info:
-  title: SPMI Test Swagger
+  title: SIMPELBI (Sitem Informasi Penjamin Mutu Internal Universitas Logistik dan Bisnis Internasional)
+  description: >-
+    Documentation for SIMPELBI API
+  termsOfService: https://github.com/jscroot/examples/tree/main/api/swagger
+  contact:
+    email: valenrio@ulbi.ac.id
   version: 1.0.0
 servers:
   - url: https://simbe-dev.ulbi.ac.id
