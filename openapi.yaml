@@ -145,6 +145,32 @@ paths:
           description: Successful response
           content:
             application/json: {}
+  /api/v1/datalaminfokom/:
+    get:
+      tags:
+        - AMI Akreditasi LAMINFOKOM
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datalaminfokom/get:
+    get:
+      tags:
+        - AMI Akreditasi LAMINFOKOM
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_laminfokom
+          in: query
+          schema:
+            type: integer
+          example: "1"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
   /api/v1/sksertifikat/add:
     post:
       tags:
@@ -267,6 +293,32 @@ paths:
           description: Successful response
           content:
             application/json: {}
+  /api/v1/datasksertifikat/:
+    get:
+      tags:
+        - AMI SK Sertifikat
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datasksertifikat/get:
+    get:
+      tags:
+        - AMI SK Sertifikat
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_sk_sertifikat
+          in: query
+          schema:
+            type: integer
+          example: "3"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
   /api/v1/lamteknik/add:
     post:
       tags:
@@ -381,6 +433,32 @@ paths:
           schema:
             type: integer
           example: "2"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datalamteknik/:
+    get:
+      tags:
+        - AMI Akreditasi LAMTEKNIK
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datalamteknik/get:
+    get:
+      tags:
+        - AMI Akreditasi LAMTEKNIK
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_lamteknik
+          in: query
+          schema:
+            type: integer
+          example: "1"
       responses:
         "200":
           description: Successful response
@@ -512,6 +590,32 @@ paths:
           description: Successful response
           content:
             application/json: {}
+  /api/v1/datastandarspmi/:
+    get:
+      tags:
+        - AMI Standar SPMI
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datastandarspmi/get:
+    get:
+      tags:
+        - AMI Standar SPMI
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_standar_spmi
+          in: query
+          schema:
+            type: integer
+          example: "1"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
   /api/v1/timspmi/add:
     post:
       tags:
@@ -631,6 +735,32 @@ paths:
           schema:
             type: integer
           example: "7"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datatimspmi/:
+    get:
+      tags:
+        - AMI Struktur Direktorat PSMS
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datatimspmi/get:
+    get:
+      tags:
+        - AMI Struktur Direktorat PSMS
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_anggota
+          in: query
+          schema:
+            type: integer
+          example: "6"
       responses:
         "200":
           description: Successful response
@@ -762,6 +892,32 @@ paths:
           description: Successful response
           content:
             application/json: {}
+  /api/v1/datatentang/:
+    get:
+      tags:
+        - AMI Tentang SPMI
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datatentang/get:
+    get:
+      tags:
+        - AMI Tentang SPMI
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_tentang
+          in: query
+          schema:
+            type: integer
+          example: "3"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
   /api/v1/banpt/add:
     post:
       tags:
@@ -888,6 +1044,32 @@ paths:
           description: Successful response
           content:
             application/json: {}
+  /api/v1/databanpt/:
+    get:
+      tags:
+        - AMI Akreditasi BAN-PT
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/databanpt/get:
+    get:
+      tags:
+        - AMI Akreditasi BAN-PT
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_ban_pt
+          in: query
+          schema:
+            type: integer
+          example: "1"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
   /api/v1/lamemba/add:
     post:
       tags:
@@ -1009,6 +1191,32 @@ paths:
           schema:
             type: integer
           example: "3"
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datalamemba/:
+    get:
+      tags:
+        - AMI Akreditasi LAMEMBA
+      summary: Get All Tanpa Token
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json: {}
+  /api/v1/datalamemba/get:
+    get:
+      tags:
+        - AMI Akreditasi LAMEMBA
+      summary: Get By ID Tanpa Token
+      parameters:
+        - name: id_lamemba
+          in: query
+          schema:
+            type: integer
+          example: "2"
       responses:
         "200":
           description: Successful response
